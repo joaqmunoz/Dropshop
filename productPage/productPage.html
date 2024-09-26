@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="productPage.css">
+</head>
+<body>
+    <div><!--Este DIV queda a la izquierda, tomar como referencia a Amazon ChatGPT deberia bastar, en todo caso es parecido al canva que hicimos-->
+        <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:435px">
+            <div id="imgtext"></div>
+        </div> 
+        <div class="row">
+            <!--Dejen estas imagenes de momento-->
+            <div class="column">
+            <img src="img_nature.jpg" style="width:100px" alt="Nature" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+            <img src="img_snow.jpg" style="width:100px" alt="Snow" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+            <img src="img_mountains.jpg" style="width:100px" alt="Mountains" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+            <img src="img_lights.jpg" style="width:100px" alt="Lights" onclick="myFunction(this);">
+            </div>
+        </div>
+    </div>
+    <div><!--Este DIV queda a la izquierda-->
+        <h2>Nombre de producto</h2>
+        <h4>Descripcion corta</h4>
+        <ul>
+            <li>punto 1</li>
+            <li>punto 2</li>
+            <li>punto 3</li>
+        </ul>
+        <p>Descripcion</p>
+        <h4>Precio: N°</h4>
+        <button>Agregar al carro</button>
+        <button>comprar ahora</button>
+    </div>
+    <div></div>
+    <script src="ProductPage.js"></script>
+    
+</body>
+</html>
